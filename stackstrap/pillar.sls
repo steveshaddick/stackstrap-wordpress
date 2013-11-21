@@ -1,0 +1,2 @@
+wordpress:
+  mode: dev
