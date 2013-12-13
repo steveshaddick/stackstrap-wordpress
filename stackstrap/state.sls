@@ -37,7 +37,7 @@ include:
     - symlink
     - target: {{ appdir }}/public
 
-/home/{{ short_name }}/tmp/shared/uploads:
+/home/{{ short_name }}/current/tmp/shared/uploads:
   file.directory:
     - user: {{ short_name }}
     - group: {{ short_name }}
