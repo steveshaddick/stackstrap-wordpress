@@ -47,6 +47,8 @@ include:
 /home/{{ short_name }}/current/public/wp-content/themes/uploads:
   file:
     - symlink
+    - user: {{ short_name }}
+    - group: {{ short_name }}
     - target: /home/{{ short_name }}/tmp/shared/uploads
 
 # vim: set ft=yaml ts=2 sw=2 sts=2 et ai :
