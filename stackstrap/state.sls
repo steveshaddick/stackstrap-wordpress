@@ -44,7 +44,7 @@ include:
     - mode: 755
     - makedirs: True
 
-/home/{{ short_name }}/public/wp-content/themes/uploads:
+/home/{{ short_name }}/current/public/wp-content/themes/uploads:
   file:
     - symlink
     - target: /home/{{ short_name }}/tmp/shared/uploads
